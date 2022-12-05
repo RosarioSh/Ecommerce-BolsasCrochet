@@ -1,5 +1,5 @@
 *{
-    background-color: rgba(21, 133, 224, 0.767);
+    background-color: darkcyan; 
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,8 +8,22 @@
 nav{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    text-align: center;
     color: aliceblue;
+    display: flex;
+}
+
+.nav-disp{
+    display: inline;
+    gap: 1rem;
+}
+
+.contain {
+    height: 1000px;
+    background-image:url(./imagenes/logo-slogan.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: -3;
 }
 
 h1{
@@ -20,19 +34,70 @@ h1{
     text-align: center;
 }
 
-.buscar{
-    color: black;
-    font-size: 130%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-}
-
-#parrafo{
+#parrafo {
     font-weight: 400;
     font-style: normal;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: floralwhite;
 }
+
+#grid {
+    text-align: center;
+    border: 0.1rem solid blanchedalmond;
+    background-color: cornflowerblue;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    "bolsa3 bolsa4 bolsa5"
+    "bolsa6 bolsa7 bolsa8";
+    gap: 0.5rem;
+    padding: 0.5rem;
+}
+
+.grid-container>div {
+    display: flex;
+    height: auto;
+    padding: 1rem;
+    justify-content: center;
+    background-color: darkslategrey;
+    border: 0.5rem solid yellow;
+}
+
+.boton1 {
+    color: black;
+    background-color: cornsilk;
+    font-size: 1.5rem;
+}
+
+.boton1:hover {
+    color: black;
+    background-color: yellow;
+    font-size: 2rem;
+}
+
+.boton2d {
+    background-color: darkkhaki
+}
+
+.boton2d:active {
+    background-color: rgb(17, 112, 221);
+    font-size: 1rem;
+}
+
+.b3 {
+    color: blue;
+    background-color: rgb(9, 229, 236);
+    font-size: 1.5rem;
+}
+
+.b3:hover{
+    color: black;
+    background-color: yellow;
+    font-size: 2rem;
+}
+
 
 h3{
     color: darkred;
