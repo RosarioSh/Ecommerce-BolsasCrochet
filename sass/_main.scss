@@ -1,0 +1,22 @@
+main {
+    section {
+        .h1inicio {
+            font-family: $tipografiaPrincipal;
+            color:blue;
+            font-size: 50px;
+            text-decoration:overline;
+        }
+        p {
+            @extend .h1inicio
+        }
+    }
+        div {
+            margin: 3rem ;
+            .descargar {
+                @include botonesMapa (yellow)
+            }
+            .compartir {
+                @include botonesMapa (green)
+            }
+        }
+    }

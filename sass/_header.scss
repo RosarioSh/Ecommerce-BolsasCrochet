@@ -1,0 +1,24 @@
+header {
+    background-color: white;
+    .navi{
+        font-size: 1rem;
+        .lista {
+            background-color: rgb(11, 88, 204);
+            color: white;
+            display: flex;
+            justify-content: space-evenly;
+            padding: 1rem;
+        }
+    }
+    }
+.navs {
+    background-color: blue;
+    display: flex;
+    color: white;
+}
+
+h1 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}

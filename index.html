@@ -6,11 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style-b.css" />
     <title>Tejidos Lau</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style-b.css">
+    <link rel="stylesheet" href="./bases.css">
   </head>
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="navi">
+        <ul class="lista">
           <li class="nav-disp">
             <a href="./index.html">Inicio</a>
           </li>
@@ -27,14 +31,32 @@
             <a href="./contacto.html">Contacto</a>
           </li>
           <li class="nav-disp">
-            <img src="./imagenes/lupa12.png" alt="">
-            <input type="text" name="Buscar" id="Buscar" placeholder="Buscar">
+            <img src="./imagenes/lupa12.png" alt="" />
+            <input type="text" name="Buscar" id="Buscar" placeholder="Buscar" />
           </li>
           <li class="nav-disp">
-            <img src="./imagenes/carrito1.png" alt="">
+            <img src="./imagenes/carrito1.png" alt="" />
             <a href="./Producto.html" title="">Carrito(2)</a>
           </li>
         </ul>
+      </nav>
+      <nav class="navs">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Tejidos Lau</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" href="./Nosotros.html">Nosotros</a>
+              <a class="nav-link" href="./Producto.html">Producto</a>
+              <a class="nav-link" href="./Catálogo.html">Catálogo</a>
+              <a class="nav-link" href="./Contacto.html">Contacto</a>
+              <a class="nav-link disabled"></a>
+            </div>
+          </div>
+        </div>
       </nav>
       <div>
         <img src="./imagenes/logo tejidos.jpg" alt="logo" />
@@ -43,7 +65,8 @@
     <main>
       <div class="contain"></div>
       <section>
-        <h1>Las bolsas más cool que verás</h1>
+        <h1 class="h1inicio">Las bolsas más cool que verás</h1>
+        <p>Las bolsas tejidas que te presentamos es para que luzcan en esta temporada. Aprende y regala un detalle hecho por ti.</p>
         <img src="./imagenes/mochila2.png" alt="Mochila" />
       </section>
       <aside>
@@ -53,7 +76,7 @@
         <audio src="./audio/2cellos-game-of-thrones.mp3" controls></audio>
       </section>
       <div>
-        <h3 id="textoS">Tamaño que buscas</h3>
+        <h3 class="h3text">Tamaño que buscas</h3>
       </div>
       <section>
         <form class="tamaño">
@@ -70,7 +93,11 @@
           <img src="./imagenes/facebook.png" alt="" />
           <img src="./imagenes/instagram.png" alt="" />
           <img src="./imagenes/whatsapp.png" alt="" />
-          <a href="https://www.facebook.com/profile.php?id=100064928232723" target="_blank" rel="">Tejidos Lau</a>
+          <a
+            href="https://www.facebook.com/profile.php?id=100064928232723"
+            target="_blank"
+            rel=""
+            >Tejidos Lau</a>
         </section>
         <section>
           <iframe
@@ -80,14 +107,21 @@
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-          <button class="b3">Localizar</button>
-          </section>
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div>
+            <button class="descargar">Descargar Mapa</button>
+            <button class="compartir">Compartir</button>
+          </div>
+        </section>
       </aside>
     </main>
-    <footer id="pie">
+    <footer>
       <p>Todos los derechos reservados</p>
       <p>Realizado por Rosario Sánchez</p>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   </body>
 </html>

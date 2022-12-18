@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce-bolsascrochet",
+  "version": "1.0.0",
+  "description": "Bolsas tejidas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RosarioSh/Ecommerce-BolsasCrochet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RosarioSh/Ecommerce-BolsasCrochet/issues"
+  },
+  "homepage": "https://github.com/RosarioSh/Ecommerce-BolsasCrochet#readme"
+}
