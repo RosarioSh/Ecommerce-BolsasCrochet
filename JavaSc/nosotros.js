@@ -30,6 +30,6 @@
 
 
 //NULL
-let residencia = "null";
-console.log (residencia);
+// let residencia = "null";
+// console.log (residencia);
 
