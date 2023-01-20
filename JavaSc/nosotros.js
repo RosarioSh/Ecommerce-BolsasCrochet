@@ -33,3 +33,30 @@
 // let residencia = "null";
 // console.log (residencia);
 
+
+
+////////////////////////////////////////////
+
+//ACTIVIDAD 7: CONDICION IF
+// let edad = prompt('Ingrese su edad:');
+
+// if(edad >=18) {
+//     console.log("VALIDO");
+//     alert('VALIDO');
+// }
+// else{
+//     console.log("NO VALIDO");
+//     alert('NO VALIDO')
+// }
+
+//BUCLE FOR
+const listaEscolar={
+    material: "Nylon",
+    color: "Verde",
+    tamaño: "30 cm x 50 cm",
+    peso: "200 grs",
+    puntada: "Medio punto",
+}
+
+const bolsa2=["mochila", 300, 50, monedero=["circular", "con fichas"]];const [tipo, precio,hechas]=bolsa2;
+console.log(tipo, precio, hechas);

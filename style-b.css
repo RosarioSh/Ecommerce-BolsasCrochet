@@ -2,18 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-nav{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
-    color: aliceblue;
-    display: flex;
-}
-
-.nav-disp{
-    display: inline;
-    gap: 1rem;
-}
-
 .contain {
     height: 1000px;
     background-image:url(./imagenes/logo-slogan.jpg);

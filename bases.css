@@ -23,22 +23,6 @@ main div .compartir {
 header {
   background-color: white;
 }
-header .navi {
-  font-size: 1rem;
-}
-header .navi .lista {
-  background-color: rgb(11, 88, 204);
-  color: white;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 1rem;
-}
-
-.navs {
-  background-color: blue;
-  display: flex;
-  color: white;
-}
 
 h1 {
   color: blue;
