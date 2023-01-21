@@ -37,26 +37,45 @@
 
 ////////////////////////////////////////////
 
-//ACTIVIDAD 7: CONDICION IF
-// let edad = prompt('Ingrese su edad:');
+//ACTIVIDAD 7:
 
-// if(edad >=18) {
-//     console.log("VALIDO");
-//     alert('VALIDO');
-// }
-// else{
-//     console.log("NO VALIDO");
-//     alert('NO VALIDO')
-// }
+//OP. TERNARIO
+let edad = (number = 18 ? console.log('VALIDO') : console.log('NO VALIDO'));
+
 
 //BUCLE FOR
-const listaEscolar={
-    material: "Nylon",
-    color: "Verde",
-    tamaño: "30 cm x 50 cm",
-    peso: "200 grs",
-    puntada: "Medio punto",
-}
 
-const bolsa2=["mochila", 300, 50, monedero=["circular", "con fichas"]];const [tipo, precio,hechas]=bolsa2;
-console.log(tipo, precio, hechas);
+const bolsasT = [
+    {Tejido:1, Material: "Trapillo", Precio:"300"},
+    {Tejido:2, Material: "Nylón", Precio:"250"},
+    {Tejido:3, Material: "Rafia", Precio:"90"},
+    {Tejido:4, Material: "Estambre", Precio:"60"},
+];
+
+console.log (bolsasT);
+
+for (let i = 0; i < bolsasT.length; i++) {
+    console.log("Propiedades de: ", bolsasT [i]);   
+} 
+
+
+//BUCLE SWITCH 
+let tejidoMaterial = 'Trapillo';
+
+switch(tejidoMaterial){
+    case 'Nylon':
+        console.log('Prefiero mi tejido de nylon');
+        break;
+    case 'Rafia':
+        console.log('Pefiero mi tejido de rafia');
+        break;
+    case 'Estambre':
+        console.log('Prefiero mi tejido de estambre');
+        break;
+    case 'Trapillo':
+        console.log('Prefiero mi tejido de trapillo');
+        break;
+    default:
+        console.log('No hay otro material');
+        break;
+}
