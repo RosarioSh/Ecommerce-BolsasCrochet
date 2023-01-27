@@ -40,42 +40,39 @@
 //ACTIVIDAD 7:
 
 //OP. TERNARIO
-let edad = (number = 18 ? console.log('VALIDO') : console.log('NO VALIDO'));
+// let edad = (number = 18 ? console.log('VALIDO') : console.log('NO VALIDO'));
 
 
-//BUCLE FOR
+// //BUCLE FOR
 
-const bolsasT = [
-    {Tejido:1, Material: "Trapillo", Precio:"300"},
-    {Tejido:2, Material: "Nylón", Precio:"250"},
-    {Tejido:3, Material: "Rafia", Precio:"90"},
-    {Tejido:4, Material: "Estambre", Precio:"60"},
-];
+// const bolsasT = [
+//     {Tejido:1, Material: "Trapillo", Precio:"300"},
+//     {Tejido:2, Material: "Nylón", Precio:"250"},
+//     {Tejido:3, Material: "Rafia", Precio:"90"},
+//     {Tejido:4, Material: "Estambre", Precio:"60"},
+// ];
 
-console.log (bolsasT);
+// console.log (bolsasT);
 
-for (let i = 0; i < bolsasT.length; i++) {
-    console.log("Propiedades de: ", bolsasT [i]);   
-} 
+// for (let i = 0; i < bolsasT.length; i++) {
+//     console.log("Propiedades de: ", bolsasT [i]);   
+// } 
 
 
-//BUCLE SWITCH 
-let tejidoMaterial = 'Trapillo';
+// //BUCLE SWITCH 
+// let edadPromocion = '25';
 
-switch(tejidoMaterial){
-    case 'Nylon':
-        console.log('Prefiero mi tejido de nylon');
-        break;
-    case 'Rafia':
-        console.log('Pefiero mi tejido de rafia');
-        break;
-    case 'Estambre':
-        console.log('Prefiero mi tejido de estambre');
-        break;
-    case 'Trapillo':
-        console.log('Prefiero mi tejido de trapillo');
-        break;
-    default:
-        console.log('No hay otro material');
-        break;
-}
+// switch(edadPromocion){
+//     case '18':
+//         console.log('Tienes una entrada 2x1 en tu proxima visita');
+//         break;
+//     case '20':
+//         console.log('Tienes dos entrada 2x1 en tu proxima visita');
+//         break;
+//     case '25':
+//         console.log('Tienes un descuento de 50% en todo el mes');
+//         break;
+//     default:
+//         console.log('No hay promocion');
+//         break;
+// }
