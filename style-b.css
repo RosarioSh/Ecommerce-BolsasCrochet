@@ -3,13 +3,14 @@
 }
 
 .contain {
-    height: 1000px;
+    height: 500px;
     background-image:url(./imagenes/logo-slogan.jpg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -3;
 }
+
 
 h1{
     color: aliceblue;
@@ -28,12 +29,11 @@ h1{
 
 #grid {
     text-align: center;
-    border: 0.1rem solid blanchedalmond;
+    border: 0.1rem solid rgb(211, 40, 10);
     background-color: cornflowerblue;
 }
 
 .grid-container {
-    display: grid;
     grid-template-areas: 
     "bolsa3 bolsa4 bolsa5"
     "bolsa6 bolsa7 bolsa8";
@@ -42,7 +42,7 @@ h1{
 }
 
 .grid-container>div {
-    display: flex;
+    display: flexbox;
     height: auto;
     padding: 1rem;
     justify-content: center;
@@ -89,6 +89,13 @@ h3{
     font-style: italic;
     font-weight: bold;
     font-size: 2em;
+}
+
+h5{
+    color:purple;
+    font-style:italic;
+    font-weight:lighter;
+    font-size: 0.5em;
 }
 
 #textoS{
