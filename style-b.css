@@ -27,6 +27,7 @@ h1{
     color: floralwhite;
 }
 
+
 #grid {
     text-align: center;
     border: 0.1rem solid rgb(211, 40, 10);
@@ -133,7 +134,8 @@ textarea{
 }
 
 
-@media only screen and (min-width: 320px) and (max-width: 500px)  {
+
+@media only screen and (min-width: 325px) and (max-width: 500px)  {
     body {
         background-color: yellow;
     }

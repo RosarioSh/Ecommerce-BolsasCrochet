@@ -1,0 +1,72 @@
+[   
+    {
+        "url": "id1",
+        "name": "Luke Skywalker",
+        "estatura": "172cm",
+        "genero": "Male"
+    },
+
+    {
+        "url": "id2",
+        "name": "C-3P0",
+        "estatura": "162cm",
+        "genero": "n/a"
+    },
+
+    {
+        "url": "id3",
+        "name": "R2-D2",
+        "estatura": "96cm",
+        "genero": "n/a"
+    },
+
+    {
+        "url": "id4",
+        "name": "Darth Vader",
+        "estatura": "202cm",
+        "genero": "Male"
+    },
+
+    {
+        "url": "id5",
+        "name": "Leia Organa",
+        "estatura": "150cm",
+        "genero": "Female"
+    },
+
+    {
+        "url": "id6",
+        "name": "Owen Lars",
+        "estatura": "178cm",
+        "genero": "Male"
+    },
+
+    {
+        "url": "id7",
+        "name": "Beru Whitesun Lars",
+        "estatura": "165cm",
+        "genero": "Female"
+    },
+
+    {
+        "url": "id8",
+        "name": "R5-D4",
+        "estatura": "97cm",
+        "genero": "n/a"
+    },
+
+    {
+        "url": "id9",
+        "name": "Biggs Darklighter",
+        "estatura": "183cm",
+        "genero": "Male"
+    },
+    
+    {
+        "url": "id10",
+        "name": "Obi-Wan Kenobi",
+        "estatura": "182cm",
+        "genero": "Male"
+    }
+
+]
