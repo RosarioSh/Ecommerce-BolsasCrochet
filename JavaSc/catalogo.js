@@ -17,30 +17,3 @@
 //     `
 //     contenedorProductos.appendChild(div)
 // })
-
-
-
-const boton = document.getElementById("botonAPI");
-const starW = document.getElementById("starW")
-
-
-
-const traerStarWars = () => {
-    fetch ("producto10.json")
-    .then(respuesta => (respuesta.json()))
-    .then(data => data.forEach(item => {
-        starW.innerHTML +=
-    `
-        <ul>
-            <li>${item.url}</li>
-            <li>${item.name}</li>
-            <li>${item.estatura}</li>
-            <li>${item.genero}</li>
-        </ul> 
-    `
-    }))
-}
-
-boton.addEventListener("click",()=> {
-    traerStarWars();
-})

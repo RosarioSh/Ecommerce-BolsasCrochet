@@ -91,8 +91,27 @@
 // const [tipo, precio,hechas]=bolsa2;
 // console.log(tipo, precio, hechas);
 
+const boton=document.getElementById("botonAPI");
+const starW=document.getElementById("starW")
 
+const traerPersonajesStarw = () => {
+    fetch ("informacion.json")
+    .then(respuesta => respuesta.json())
+    .then(data => data.forEach(item => {
+        starW.innerHTML +=
+        `
+            <ul>
+                <li>${item.url}</li>
+                <li>${item.name}</li>
+                <li>${item.estatura}</li>
+                <li>${item.genero}</li>
+        `
+        
+    }))
 
+}
+
+boton.addEventListener("click", traerPersonajesStarw)
 
 
 
