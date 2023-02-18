@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Acme&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 * {
-  background-color: rgb(7, 212, 212);
+  background-color: rgb(133, 180, 189);
 }
 
 h1 {
   font-family: "Acme", sans-serif;
-  color: darkgreen;
+  color: rgb(7, 10, 175);
   text-align: center;
 }
 
 main .parrafoCon1, main .parrafoCon2 {
-  background-color: aqua;
-  color: rgb(170, 8, 8);
-  font-size: 25px;
-  text-align: justify;
+  background-color: rgb(28, 181, 241);
+  color: rgb(65, 6, 160);
+  font-size: 20px;
+  text-align: center;
 }
 main #contenedorProductos {
   display: grid;
@@ -56,8 +56,8 @@ main #contenedorProductos .flip-card .flip-card-inner .flip-card-front img {
   height: 300px;
 }
 main #contenedorProductos .flip-card .flip-card-inner .flip-card-back {
-  background-color: #68ddbd;
-  color: white;
+  background-color: #0ea0f5;
+  color: rgb(211, 7, 7);
   transform: rotateY(180deg);
   padding: 1rem;
   display: flex;
@@ -75,7 +75,7 @@ main #contenedorProductos .flip-card .flip-card-inner .flip-card-back p {
   font-family: "Open Sans", sans-serif;
 }
 main #contenedorProductos .flip-card .flip-card-inner .flip-card-back button {
-  background-color: #038554;
+  background-color: #fafcfd;
   padding: 1rem;
   border-radius: 5px;
   border: none;
