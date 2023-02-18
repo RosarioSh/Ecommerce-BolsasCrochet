@@ -1,0 +1,32 @@
+@media only screen and (max-width: 600px) {
+    main {
+
+        #contenedorProductos {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            padding: 1rem;
+            .flip-card {
+                margin: 0 auto;
+                @include medida (140px, 140px);
+                .flip-card-inner {
+                    .flip-card-front {
+                        img {
+                            @include medida (100%, 100%);
+                        }
+                    }
+                    .flip-card-back{
+                        .tituloCard {
+                            font-size: 18px;
+                        }
+                        button {
+                            padding: 0.1rem;
+                            width: 145px;
+                        }
+                    }
+                }
+            }
+        }
+        
+    }
+}

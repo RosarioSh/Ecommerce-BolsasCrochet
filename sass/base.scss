@@ -1,1 +1,18 @@
+*{
+    background-color: rgb(7, 212, 212)
+}
+
+h1{
+    font-family: 'Acme', sans-serif;
+    color: darkgreen;
+    text-align: center;
+}
+
+@import "contacto";
+@import "mixins";
 @import "variables";
+@import "contenedorProductos";
+
+
+@import "mediaQmin";
+@import "mediaQminform";

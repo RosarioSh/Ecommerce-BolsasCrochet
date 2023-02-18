@@ -5,7 +5,7 @@ const bolsas = [
     {id:1, nombre: "Bolsa disco", imagen:"./imagenes/bolsa_disco1.jpg", color:"Rojo matizado", precio:" $150", cantidad:1},
     {id:2, nombre: "Bolsa estambre", imagen:"./imagenes/bolsa_estambre1.jpg", color:"Azul con verde", precio:" $80", cantidad:1},
     {id:3, nombre: "Bolsa vino", imagen:"./imagenes/bolsa_nylon1.jpg", color:"Vino", precio:" $180", cantidad:1},
-    {id:4, nombre: "Bolsa de mano", imagen:"./imagenes/bolsa_nylon2.jpg", color:"Azul", precio:"MXN200", cantidad:1},
+    {id:4, nombre: "Bolsa de mano", imagen:"./imagenes/bolsa_nylon2.jpg", color:"Azul", precio:" $200", cantidad:1},
     {id:5, nombre: "Bolsa para hombros ", imagen:"./imagenes/bolsa_nylon3.jpg", color:"Azul", precio:" $180", cantidad:1},
     {id:6, nombre: "Bolsa matizado con argolla", imagen:"./imagenes/bolsa_nylon4.jpg", color:"Azul con amarillo", precio:" $160", cantidad:1},
     {id:7, nombre: "Bolsa rosado", imagen:"./imagenes/bolsa_nylon5.jpg", color:"Blanco con rosa", precio:" $150", cantidad:1},
@@ -45,18 +45,22 @@ const bolsas = [
 
 ]
 
-bolsas.forEach(item => {
-    contenedorProductos.innerHTML +=
+
+
+bolsas.forEach (item => {
+    contenedorProductos.innerHTML += 
     `
-    <figure class="image-block">
-    <img src="${item.imagen}" alt="${item.nombre}"/>
-	<figcaption>
-		<h3>
-			${item.nombre}
-		</h3>
-		<p>${item.precio}</p>
-		<button class="btn btn-primary" id="bolsas${item.id}">Agregar al carrito</button>
-	</figcaption>
-    </figure>
+    <div class="flip-card">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="${item.imagen}" alt="${item.nombre}">
+            </div>
+            <div class="flip-card-back">
+                <h3 class="tituloCard"> ${item.nombre} </h3>
+                <p>Precio: ${item.precio}</p>
+                <button id="bolsas${item.id}">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
     `
 })

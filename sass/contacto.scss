@@ -1,0 +1,13 @@
+main{
+
+        .parrafoCon1{
+            background-color: aqua;
+            color: rgb(170, 8, 8);
+            font-size: 25px;
+            text-align: justify;
+        }
+
+     .parrafoCon2{
+        @extend .parrafoCon1;
+     }   
+}
